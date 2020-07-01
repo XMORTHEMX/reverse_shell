@@ -5,7 +5,7 @@ HEADER_SIZE = 64
 FORMAT = "utf-8"
 DISCONNECT_MESSAGE = "!KILL"
 
-SERVER_NAME = 'LAPTOP-BAVC5R5S'
+SERVER_NAME = socket.gethostbyname()
 SERVER = socket.gethostbyname(SERVER_NAME)
 PORT = 1235
 ADDR = (SERVER, PORT)
